@@ -14,6 +14,8 @@ A module is unit of code that can be used again and again.
 - Reusable
     - Has to be easy to integrate into bigger applications
 
+Check the official documentation for [Creating Modules](https://www.terraform.io/docs/language/modules/develop/index.html) with terraform.
+
 ## Directory structure example
 To use a module means load another file from another directory
 ![directory-structure](./source/screenshots/2021-10-22-11-14-48.png)
