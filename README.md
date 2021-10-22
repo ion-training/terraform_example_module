@@ -14,6 +14,11 @@ A module is unit of code that can be used again and again.
 - Reusable
     - Has to be easy to integrate into bigger applications
 
+## Directory structure example
+To use a module means load another file from another directory
+![directory-structure](./source/screenshots/2021-10-22-11-14-48.png)
+
+
 # Create a module
 In the current directory of your project create main.tf
 ```
@@ -88,10 +93,6 @@ Apply the changes if the plan looks good:
 ```
 terraform apply
 ```
-
-## Directory structure
-To use a module means load another file from another directory
-![directory-structure](./source/screenshots/2021-10-22-11-14-48.png)
 
 
 # How to use the code from this repository
