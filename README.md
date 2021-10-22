@@ -171,6 +171,9 @@ now.
 $
 ```
 
+
+For next step look for the line
+> module.sum_two_numbers.null_resource.print_on_cli_hello_world (local-exec): Hello World!
 ```
 $ terraform apply
 
