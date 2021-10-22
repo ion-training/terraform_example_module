@@ -19,9 +19,10 @@ In the current directory of your project create main.tf
 ```
 touch main.tf
 ```
-In the main.tf add following content. \ 
+
+In the main.tf add following content. \
 This will load the module that prints "Hello World!" on the cli. \
-_Module and directory structure will be created in following steps._
+_Module and directory structure seen in the "source = "./ ""will be created in following steps._
 ```
 module "sum_two_numbers" {
     source = "./modules_placeholder/hello_on_cli_module"
@@ -60,10 +61,11 @@ Change directory back to the top of your project:
 cd ../../
 ```
 
-Make sure you see this directory structure:
+Type tree to list the contents:
 ```
 tree
 ```
+Make sure you see this structure:
 ```
 $ tree
 ├── main.tf
